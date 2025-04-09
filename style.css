@@ -6,6 +6,9 @@ body {
 body:has(.burger__open){
   overflow-y: hidden;
 }
+html:has(.burger__open){
+  overflow-y: hidden;
+}
 .menu {
   position: fixed;
   left: 17px;
@@ -900,5 +903,13 @@ section {
   .footer__row {
     flex-direction: column;
     gap: 32px;
+  }
+  .modal__container{
+    width: 100%;
+    margin: 0px 40px;
+    padding: 18px;
+  }
+  .modal__row{
+    flex-direction: column;
   }
 }
